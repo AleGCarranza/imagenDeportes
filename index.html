@@ -8,27 +8,25 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+
 </head>
 <body>
     <nav>
        
         <div class="menu search">
-            <button class="menu-hamburguer">Menú
-                <span></span>
-                <span></span>
-                <span></span>
-                </button> 
-            <a href="#">Search</a>  
+            <i class="fa fa-bars fa-2x"></i>
+                <i class="fa fa-search fa-2x"></i>
+                
         </div>
         
 
           <img src="./assets/logo.jpg" alt="">
           <div class="profile">
-            <a href="#">Profile</a>
+            <i class="fa fa-user fa-2x"></i>
           </div>
        
     </nav>
-   <!-- falta ponerle imagenes de iconos -->
+  
 
     <main>
         <section class="slider">
@@ -42,50 +40,110 @@
             </div>  
              
         </section>
+        <section id="headline">
+        </section>
         <section>
-            <div id="firstContainer"></div>
-            <div id="containerTitle"></div>
+            <div id="subtitle">
+            </div>
         </section>
         
+        <hr/>
         <section class="opinion">
-            <h2>En la opinión de...</h2>
+            <h2>EN LA OPINIÓN DE...</h2>
             
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, maxime.</p>
             <div class="specialist">
                 <img src="https://i.ibb.co/1fYQdSh/pablocarrillo-0.jpg" alt="pablocarrillo-0" width="50">
             </div>
         </section>
+        <hr/>
         <section>
-            <h2>NO TE PUEDES PERDER</h2>
-            <div id="firstContainerTwo"></div>
+            <h2>NO TE LO PUEDES PERDER</h2>
+            <div id="cantLoss"></div>
         </section>
+        <hr/>
         <section>
-            <h2>Ultima Hora</h2>
-            <div id="container"></div>
+            
+            <h2>ÚLTIMA HORA</h2>
+            <div class="notice" id="container"></div>
         </section>
+
+        <hr/>
         <section class="discurse">
+
             <h2>ASI LO DIJO...</h2>
             <div class="testimonio">
                 <i class="fas fa-quote-left"></i>
                 <p class="important">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt accusantium laboriosam nemo ipsa debitis omnis quis molestiae eius! Quia, vitae minus temporibus, voluptatibus laudantium odio recusandae dolore, illo officiis minima possimus dolorum quo facilis aliquam ab beatae perferendis harum neque explicabo amet at placeat. Voluptas autem deserunt nesciunt explicabo. Molestiae magnam velit tempora magni, voluptas eveniet suscipit? Laboriosam iusto dolorem ipsa voluptatem saepe dolore porro debitis optio illum, delectus quod, reprehenderit consequatur accusantium laudantium sed quia esse explicabo dolorum assumenda.</p>
                 <h2>Andy Ruiz</h2>
-                <span>Entrenador</span>
+                <span>@ANDY_RUIZ</span>
                 <i class="fas fa-quote-right"></i>
             </div>
             
             
         </section>
+        <hr/>
         <section>
             <h2>HOY EN IMAGEN DEPORTES</h2>
+            <div class="today">
+                <div class="today-img">
+                    <img src="./assets/sports1.jpg" alt="">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, ut!</h3>
+                    <img src="./assets/sports2.jpg" alt="">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, ut!</h3>
+    
+                </div>
+                <div class="today-img">
+                    <img src="./assets/sports3.jpg" alt="">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, ut!</h3>
+                    <img src="./assets/sports4.jpg" alt="">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, ut!</h3>
+                </div>
+
+            </div>
+            
+            
         </section>
+        <hr>
         <section>
-            <h2>Video Galerias</h2>
+            <div class="video-gallery"> <h2 class="back">VIDEOGALERÍAS</h2></div>
+            <div id="videos"></div>
         </section>
+        <hr>
         <section>
-            <h2>Más de Imagen Deportes</h2>
+            <h2>MÁS DE IMAGEN DEPORTES</h2>
+            <div class="today">
+                <div class="today-img">
+                    <img src="./assets/sports1.jpg" alt="">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, ut!</h3>
+                    <img src="./assets/sports2.jpg" alt="">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, ut!</h3>
+    
+                </div>
+                <div class="today-img">
+                    <img src="./assets/sports3.jpg" alt="">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, ut!</h3>
+                    <img src="./assets/sports4.jpg" alt="">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, ut!</h3>
+                </div>
+            </div>
+            <hr>
+            <div class="notice" id="container-notice"></div>
         </section>
+        <hr>
         <section>
-            <h2>Galerias</h2>
+            <h2>GALERÍAS</h2>
+            <br>
+            <div class="gallery-container">
+                <div class="gallery-one">
+                    <img class="img-primary" src="./assets/sports2.jpg" alt="">
+                    <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, animi!
+                    </h1>
+                </div>
+                <div id="gallery"></div>
+                
+            </div>
+            
         </section>
     </main>
    <script src="index.js" type="module"></script>

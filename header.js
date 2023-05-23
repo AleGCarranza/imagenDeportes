@@ -1,9 +1,10 @@
 import data from "./data.js"
 
 const articles= data.articles
-const firstContainer = document.getElementById("firstContainer")
+const firstContainer = document.getElementById("headline")
+let oneArticle= articles.at(0)
 
-const firstMinuteHTML = (articles) => {
+export const firstMinuteHTML = (articles) => {
     const div = document.createElement("div")
     const titleLast = document.createElement("h3")
     titleLast.textContent = oneArticle.title
