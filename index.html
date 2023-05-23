@@ -1,36 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
 </head>
 <body>
-    <header></header>
-    <section>
-        <h2>En la opinión de...</h2>
-    </section>
-    <section>
-        <h2>No te puedes perder</h2>
-    </section>
-    <section>
-        <h2>Ultima Hora</h2>
-    </section>
-    <section>
-        <h2>Asi lo dijo</h2>
-    </section>
-    <section>
-        <h2>Hoy</h2>
-    </section>
-    <section>
-        <h2>Video Galerias</h2>
-    </section>
-    <section>
-        <h2>Más de Imagen Deportes</h2>
-    </section>
-    <section>
-        <h2>Galerias</h2>
-    </section>
+    <nav>
+       
+        <div class="menu search">
+            <button class="menu-hamburguer">Menú
+                <span></span>
+                <span></span>
+                <span></span>
+                </button> 
+            <a href="#">Search</a>  
+        </div>
+        
+
+          <img src="./assets/logo.jpg" alt="">
+          <div class="profile">
+            <a href="#">Profile</a>
+          </div>
+       
+    </nav>
+   <!-- falta ponerle imagenes de iconos -->
+
+    <main>
+        <section class="slider">
+            <div class="img-container">
+                <img class="img-slider" id="sliders" src="./assets/caliente-casino-welcome-bonus.png" alt="promo1">
+                <img class="img-slider" id="sliders" src="./assets/caliente-sports-welcome-bonus.png" alt="promo2">
+            </div>  
+            <div class="buttons-container">
+                <button class="left">Anterior</button>
+             <button class="right">Siguiente</button>
+            </div>  
+             
+        </section>
+        <section>
+            <div id="firstContainer"></div>
+            <div id="containerTitle"></div>
+        </section>
+        
+        <section class="opinion">
+            <h2>En la opinión de...</h2>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, maxime.</p>
+            <div class="specialist">
+                <img src="https://i.ibb.co/1fYQdSh/pablocarrillo-0.jpg" alt="pablocarrillo-0" width="50">
+            </div>
+        </section>
+        <section>
+            <h2>NO TE PUEDES PERDER</h2>
+            <div id="firstContainerTwo"></div>
+        </section>
+        <section>
+            <h2>Ultima Hora</h2>
+            <div id="container"></div>
+        </section>
+        <section class="discurse">
+            <h2>ASI LO DIJO...</h2>
+            <div class="testimonio">
+                <i class="fas fa-quote-left"></i>
+                <p class="important">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt accusantium laboriosam nemo ipsa debitis omnis quis molestiae eius! Quia, vitae minus temporibus, voluptatibus laudantium odio recusandae dolore, illo officiis minima possimus dolorum quo facilis aliquam ab beatae perferendis harum neque explicabo amet at placeat. Voluptas autem deserunt nesciunt explicabo. Molestiae magnam velit tempora magni, voluptas eveniet suscipit? Laboriosam iusto dolorem ipsa voluptatem saepe dolore porro debitis optio illum, delectus quod, reprehenderit consequatur accusantium laudantium sed quia esse explicabo dolorum assumenda.</p>
+                <h2>Andy Ruiz</h2>
+                <span>Entrenador</span>
+                <i class="fas fa-quote-right"></i>
+            </div>
+            
+            
+        </section>
+        <section>
+            <h2>HOY EN IMAGEN DEPORTES</h2>
+        </section>
+        <section>
+            <h2>Video Galerias</h2>
+        </section>
+        <section>
+            <h2>Más de Imagen Deportes</h2>
+        </section>
+        <section>
+            <h2>Galerias</h2>
+        </section>
+    </main>
+   <script src="index.js" type="module"></script>
 </body>
 </html>
